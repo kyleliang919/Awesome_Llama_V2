@@ -7,7 +7,7 @@ Quality verification is done manually and qualitatively, feel free to complain b
 ## Math
 | Model Name                  |          Prompt Template            | Quality Verified  |       Dataset     | Chat |
 |-----------------------------|-------------------------------------|-------------------|-------------------|------|
-| WizardLM/WizardMath-7B-V1.0 | <details><summary>Prompt</summary>"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step."</details> | ✅               |
+| (WizardLM/WizardMath-7B-V1.0)[https://huggingface.co/WizardLM/WizardMath-7B-V1.0] | <details><summary>Prompt</summary>"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step."</details> | ✅               |
 
 ## Code (General)
 | Model Name                  |          Prompt Template            | Quality Verified  |       Dataset     | Chat |

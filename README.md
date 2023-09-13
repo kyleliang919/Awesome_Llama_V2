@@ -30,6 +30,6 @@ Note that base llama
 ## RapidAPI (ToolLlama)
 | Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |
 |--------------------------------|-------------------------------------|-------------------| ------| ---------- |
-| [ToolBench/ToolLLaMA-2-7b](https://huggingface.co/ToolBench/ToolLLaMA-2-7b) | N/A | ✅ | ❌ | 32000 |
+| [ToolBench/ToolLlaMA-2-7b](https://huggingface.co/ToolBench/ToolLLaMA-2-7b) | N/A | ✅ | ❌ | 32000 |
 
 *Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified.*

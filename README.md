@@ -25,7 +25,7 @@ Note that base llama
 ## Code (SQL)
 | Model Name                     |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
 |--------------------------------|-------------------------------------|-------------------|------| ---------- |
-| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ |  32000    |
+| [NumbersStation/nsql-llama-2-7B](https://huggingface.co/NumbersStation/nsql-llama-2-7B) |            N/A                      |        ❌         |   ❌ |  32000    |
 
 ## RapidAPI (toollama)
 | Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |

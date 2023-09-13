@@ -17,12 +17,12 @@ Note that base llama
 ## Language
 | Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
 |-----------------------------|-------------------------------------|-------------------|------|------------|
-| [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) |       <details><summary>Prompt Template</summary> "<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details>                             | ✅ | ❌ | 32000 |
+| [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) | ```text <s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ❌ | 32000 |
 
 ## Code (SQL)
 | Model Name                     |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
 |--------------------------------|-------------------------------------|-------------------|------| ---------- |
-| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ | 
+| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ |           |
 
 ## RapidAPI (toollama)
 | Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |

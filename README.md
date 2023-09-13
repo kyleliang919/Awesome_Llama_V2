@@ -39,7 +39,7 @@ This list is neither conclusive nor comprehensive, since I am too lazy to includ
 ## Tools (APIs)
 | Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size | Tool |
 |--------------------------------|-------------------------------------|-------------------| ------| ---------- | ------|
-| [ToolBench/ToolLlaMA-2-7b](https://huggingface.co/ToolBench/ToolLLaMA-2-7b) | ```N/A``` | ✅ | ❌ | 32000 | RapidAPI |
+| [ToolBench/ToolLlaMA-2-7b](https://huggingface.co/ToolBench/ToolLLaMA-2-7b) | ```System:{system prompt}\nUser:{prompt}\nAssistant:``` | ✅ | ✅ | 32000 | RapidAPI |
 
 ## Astronomy
 | Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |

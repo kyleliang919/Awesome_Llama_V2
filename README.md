@@ -1,7 +1,7 @@
 # Awesome_Llama_V2
 An aggregated collection of llama_v2 s finetuned on different tasks/domains, sometimes they come with different name and can not be properly filtered by huggingface models.
 Quality verification is done manually and qualitatively, it's based on my personal opinion of whether the model is usable so bar could be rather low, feel free to complain by submitting an issue or PR if you disagree.
-Note that base llama 
+Disclaimer: This list is neither conclusive nor comprehensive, since I am too lazy to include all the gazillons of lora adapted models, there might be more good and fun ones out there.
 # Finetuned Llama_V2_7B
 
 ## Math

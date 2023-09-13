@@ -1,6 +1,6 @@
 # Awesome_Llama_V2
 An aggregated collection of llama_v2 s finetuned on different tasks/domains, sometimes they come with different name.
-Quality verification is done manually and qualitatively, feel free to complain by submitting an issue or PR if you disagree.
+Quality verification is done manually and qualitatively, it's based on my personal opinion of whether the model is usable so bar could be rather low, feel free to complain by submitting an issue or PR if you disagree.
 Note that base llama 
 # Llama_V2_7B
 

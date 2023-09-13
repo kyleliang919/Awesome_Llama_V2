@@ -24,12 +24,12 @@ This list is neither conclusive nor comprehensive, since I am too lazy to includ
 ## Language
 | Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size | Language | 
 |-----------------------------|-------------------------------------|-------------------|------|------------|----------|
-| [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ❌ | 32000 | Japanese |
-| [elyza/ELYZA-japanese-Llama-2-7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ✅ | 32000 | Japanese |
-| [elyza/ELYZA-japanese-Llama-2-7b-fast](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ❌ | 45043 | Japanese |
-| [elyza/ELYZA-japanese-Llama-2-7b-fast-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ✅ | 45043 | Japanese |
+| [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) | ```N/A ```| ✅ | ❌ | 32000 | Japanese |
+| [elyza/ELYZA-japanese-Llama-2-7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s> ```| ✅ | ✅ | 32000 | Japanese |
+| [elyza/ELYZA-japanese-Llama-2-7b-fast](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast) | ```N/A ```| ✅ | ❌ | 45043 | Japanese |
+| [elyza/ELYZA-japanese-Llama-2-7b-fast-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s> ```| ✅ | ✅ | 45043 | Japanese |
 | [kfkas/Llama-2-ko-7b-Chat](https://huggingface.co/kfkas/Llama-2-ko-7b-Chat) | ```아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요.\n\n### 명령어:\n{x}\n\n### 응답:```| ✅ | ❌ | 46336 | Korean |
-| [beomi/llama-2-ko-7b](https://huggingface.co/beomi/llama-2-ko-7b) | N/A | ✅ | ✅ | 46336 | Korean |
+| [beomi/llama-2-ko-7b](https://huggingface.co/beomi/llama-2-ko-7b) | ```N/A``` | ✅ | ✅ | 46336 | Korean |
 | [LinkSoul/Chinese-Llama-2-7b](https://huggingface.co/LinkSoul/Chinese-Llama-2-7b) | ```[INST] <<SYS>>\nYou are a helpful, respectful and honest assistant. Always answer as helpfully as possible, while being safe.  Your answers should not include any harmful, unethical, racist, sexist, toxic, dangerous, or illegal content. Please ensure that your responses are socially unbiased and positive in nature.\n\nIf a question does not make any sense, or is not factually coherent, explain why instead of answering something not correct. If you don't know the answer to a question, please don't share false information.\n<</SYS>>\n\n{} [/INST]``` | ✅ | ✅ | 32000 | Chinese |
 | [FlagAlpha/Atom-7B-Chat](https://huggingface.co/FlagAlpha/Atom-7B-Chat) | ``` <s>Human: {prompt}\n</s><s>Assistant: ```| ✅ | ✅ | 65000 | Chinese |
 | [flozi00/Llama-2-7b-german-assistant-v3](https://huggingface.co/flozi00/Llama-2-7b-german-assistant-v3) | ```### User:{prompt}\n### Assistant:``` | ✅ | ✅ | 32000 | German |

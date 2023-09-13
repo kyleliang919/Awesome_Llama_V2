@@ -10,10 +10,9 @@ Note that base llama
 | [WizardLM/WizardMath-7B-V1.0](https://huggingface.co/WizardLM/WizardMath-7B-V1.0) | <details><summary>Prompt Template</summary>"Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step."</details> | ✅ | ✅ | 32001 |
 
 ## Code (Python)
-| Model Name                  |          Prompt Template            | Quality Verified  |       Dataset     | Chat | Vocab Size |
-|-----------------------------|-------------------------------------|-------------------|-------------------|------|------------|
-| [WizardLM/WizardCoder-Python-7B-V1.0](https://huggingface.co/WizardLM/WizardCoder-Python-7B-V1.0/tree/main) | <details><summary>Prompt Template</summary>""Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"
-"</details>   | ✅               |                    |    ✅    |       32001|                     
+| Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
+|-----------------------------|-------------------------------------|-------------------|------|------------|
+| [WizardLM/WizardCoder-Python-7B-V1.0](https://huggingface.co/WizardLM/WizardCoder-Python-7B-V1.0/tree/main) | <details><summary>Prompt Template</summary>""Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"</details>   | ✅ | ✅ | 32001 |                     
 
 
 

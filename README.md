@@ -17,7 +17,7 @@ Note that base llama
 ## Language
 | Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
 |-----------------------------|-------------------------------------|-------------------|------|------------|
-| [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) |       <details><summary>Prompt Template</summary> "<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]</details>                             | ✅ | ❌ | 32000 |
+| [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) |       <details><summary>Prompt Template</summary> "<s>\[INST\] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]</s></details>                             | ✅ | ❌ | 32000 |
 
 ## Code (SQL)
 | Model Name                     |          Prompt Template            | Quality Verified  | Chat | Vocab Size |

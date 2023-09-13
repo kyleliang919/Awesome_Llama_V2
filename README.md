@@ -19,15 +19,17 @@ Note that base llama
 |-----------------------------|-------------------------------------|-------------------|------|------------|
 | [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ❌ | 32000 |
 | [elyza/ELYZA-japanese-Llama-2-7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ✅ | 32000 |
+| [elyza/ELYZA-japanese-Llama-2-7b-fast](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ✅ | 45043 |
+| [elyza/ELYZA-japanese-Llama-2-7b-fast-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ✅ | 45043 |
 
 ## Code (SQL)
 | Model Name                     |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
 |--------------------------------|-------------------------------------|-------------------|------| ---------- |
-| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ |           |
+| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ |  32000    |
 
 ## RapidAPI (toollama)
 | Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |
 |--------------------------------|-------------------------------------|-------------------| ------| ---------- |
-| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ |  32000     |
+| ToolBench/ToolLLaMA-2-7b       |            N/A                      |        ✅         |   ❌ |  32000     |
 
 *Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified.*

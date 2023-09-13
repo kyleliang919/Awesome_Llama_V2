@@ -8,7 +8,7 @@ Note that base llama
 | Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
 |-----------------------------|-------------------------------------|-------------------|------|------------|
 | [WizardLM/WizardMath-7B-V1.0](https://huggingface.co/WizardLM/WizardMath-7B-V1.0) |```Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response: Let's think step by step.``` | ✅ | ✅ | 32001 |
-
+| [TIGER-Lab/MAmmoTH-7B](https://huggingface.co/TIGER-Lab/MAmmoTH-7B) | ```Unknown``` | ❌ | ❌ | 32001 |
 ## Coding
 | Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size | Language | 
 |-----------------------------|-------------------------------------|-------------------|------|------------|----------|

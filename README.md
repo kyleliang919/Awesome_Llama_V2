@@ -2,7 +2,7 @@
 An aggregated collection of llama_v2 s finetuned on different tasks/domains, sometimes they come with different name and can not be properly filtered by huggingface models.
 Quality verification is done manually and qualitatively, it's based on my personal opinion of whether the model is usable so bar could be rather low, feel free to complain by submitting an issue or PR if you disagree.
 Note that base llama 
-# Domain Specific Llama_V2_7B
+# Finetuned Llama_V2_7B
 
 ## Math
 | Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size |

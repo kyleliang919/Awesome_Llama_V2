@@ -21,7 +21,7 @@ Note that base llama
 | [elyza/ELYZA-japanese-Llama-2-7b-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ✅ | 32000 | Japanese |
 | [elyza/ELYZA-japanese-Llama-2-7b-fast](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ❌ | 45043 | Japanese |
 | [elyza/ELYZA-japanese-Llama-2-7b-fast-instruct](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b-fast-instruct) | ```<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]"</s></details> ```| ✅ | ✅ | 45043 | Japanese |
-| [kfkas/Llama-2-ko-7b-Chat](https://huggingface.co/kfkas/Llama-2-ko-7b-Chat) | ```아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요.\n\n### 명령어:\n{x}\n\n### 응답:```| ✅ | ✅ | 46336 | Korean |
+| [kfkas/Llama-2-ko-7b-Chat](https://huggingface.co/kfkas/Llama-2-ko-7b-Chat) | ```아래는 작업을 설명하는 명령어입니다. 요청을 적절히 완료하는 응답을 작성하세요.\n\n### 명령어:\n{x}\n\n### 응답:```| ✅ | ❌ | 46336 | Korean |
 
 ## Code (SQL)
 | Model Name                     |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
@@ -33,4 +33,4 @@ Note that base llama
 |--------------------------------|-------------------------------------|-------------------| ------| ---------- |
 | [ToolBench/ToolLlaMA-2-7b](https://huggingface.co/ToolBench/ToolLLaMA-2-7b) | N/A | ✅ | ❌ | 32000 |
 
-*Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified either due to out side of my domain expertise or my laziness, it's not indicative of the actual quality of the model.*
+*Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified either due to being out side of my domain expertise or my laziness, it's not indicative of the actual quality of the model. (for example, I don't read Korean)*

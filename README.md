@@ -13,7 +13,7 @@ Note that base llama
 | Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size | Language | 
 |-----------------------------|-------------------------------------|-------------------|------|------------|----------|
 | [WizardLM/WizardCoder-Python-7B-V1.0](https://huggingface.co/WizardLM/WizardCoder-Python-7B-V1.0/tree/main) |```Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:``` | ✅ | ✅ | 32001 | Python |
-| [NumbersStation/nsql-llama-2-7B](https://huggingface.co/NumbersStation/nsql-llama-2-7B) | N/A | ❌ | ❌ | 32000 | SQL |
+| [NumbersStation/nsql-llama-2-7B](https://huggingface.co/NumbersStation/nsql-llama-2-7B) | ```N/A``` | ❌ | ❌ | 32000 | SQL |
 | [TIGER-Lab/MAmmoTH-Coder-7B](https://huggingface.co/TIGER-Lab/MAmmoTH-Coder-7B) | ```Unknown``` | ❌ | ❌ | 32017 | General |
 
                   

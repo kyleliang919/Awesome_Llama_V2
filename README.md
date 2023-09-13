@@ -14,21 +14,19 @@ Note that base llama
 |-----------------------------|-------------------------------------|-------------------|------|------------|
 | [WizardLM/WizardCoder-Python-7B-V1.0](https://huggingface.co/WizardLM/WizardCoder-Python-7B-V1.0/tree/main) | <details><summary>Prompt Template</summary>""Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:"</details>   | ✅ | ✅ | 32001 |                     
 
-
-
 ## Language
-| Model Name                  |          Prompt Template            | Quality Verified  |       Dataset     |
-|-----------------------------|-------------------------------------|-------------------|-------------------|
-| WizardLM/WizardMath-7B-V1.0 |                                        | ✅                |
+| Model Name                  |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
+|-----------------------------|-------------------------------------|-------------------|------|------------|
+| [elyza/ELYZA-japanese-Llama-2-7b](https://huggingface.co/elyza/ELYZA-japanese-Llama-2-7b) |       <details><summary>Prompt Template</summary> "<s>[INST] <<SYS>>\nあなたは誠実で優秀な日本人のアシスタントです。\n<</SYS>>\n\n{instruction} [/INST]</details>                             | ✅ | ❌ | 32000 |
 
 ## Code (SQL)
-| Model Name                     |          Prompt Template            | Quality Verified  |       Dataset     | Chat | Vocab Size |
-|--------------------------------|-------------------------------------|-------------------|-------------------|------| ---------- |
-| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |       Unknown     |   ❌ | 
+| Model Name                     |          Prompt Template            | Quality Verified  | Chat | Vocab Size |
+|--------------------------------|-------------------------------------|-------------------|------| ---------- |
+| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ | 
 
 ## RapidAPI (toollama)
-| Model Name                     |          Prompt Template            | Quality Verified  |       Dataset     | Chat | Vocab Size |
-|--------------------------------|-------------------------------------|-------------------|-------------------|------| ---------- |
-| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |       Unknown     |   ❌ |           |
+| Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |
+|--------------------------------|-------------------------------------|-------------------| ------| ---------- |
+| NumbersStation/nsql-llama-2-7B |            N/A                      |        ❌         |   ❌ |  32000     |
 
 *Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified.*

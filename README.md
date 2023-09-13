@@ -40,4 +40,9 @@ This list is neither conclusive nor comprehensive, since I am too lazy to includ
 |--------------------------------|-------------------------------------|-------------------| ------| ---------- | ------|
 | [ToolBench/ToolLlaMA-2-7b](https://huggingface.co/ToolBench/ToolLLaMA-2-7b) | ```N/A``` | ✅ | ❌ | 32000 | RapidAPI |
 
+## Astronomy
+| Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |
+|--------------------------------|-------------------------------------|-------------------| ------| ---------- |
+| [universeTBD/astrollama](https://huggingface.co/universeTBD/astrollama/tree/main)     |    ```N/A``` | ❌ | ❌ | 32000 |
+
 *Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified either due to being out side of my domain expertise or my laziness, it's not indicative of the actual quality of the model. (for example, I don't read Korean)*

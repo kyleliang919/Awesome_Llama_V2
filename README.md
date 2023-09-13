@@ -33,4 +33,4 @@ Note that base llama
 |--------------------------------|-------------------------------------|-------------------| ------| ---------- |
 | [ToolBench/ToolLlaMA-2-7b](https://huggingface.co/ToolBench/ToolLLaMA-2-7b) | N/A | ✅ | ❌ | 32000 |
 
-*Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified.*
+*Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified either due to out side of my domain expertise or my laziness, it's not indicative of the actual quality of the model.*

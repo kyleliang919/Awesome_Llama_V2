@@ -48,4 +48,9 @@ This list is neither conclusive nor comprehensive, since I am too lazy to includ
 |--------------------------------|-------------------------------------|-------------------| ------| ---------- |
 | [universeTBD/astrollama](https://huggingface.co/universeTBD/astrollama/tree/main)     |    ```N/A``` | ❌ | ❌ | 32000 |
 
+## Mental Health???
+| Model Name                     |          Prompt Template            | Quality Verified  |  Chat | Vocab Size |
+|--------------------------------|-------------------------------------|-------------------| ------| ---------- |
+| [klyang/MentaLLaMA-chat-7B](https://huggingface.co/klyang/MentaLLaMA-chat-7B)     |    ```Consider this post:{post}Question:{question}Answer:``` | ✅ | ✅ | 32000 |
+
 *Note: "✅" indicates models whose quality has been verified and "❌" indicates models that haven't been verified either due to being out side of my domain expertise or my laziness, it's not indicative of the actual quality of the model. (for example, I don't read Korean)*
